@@ -21,7 +21,7 @@
 - Header (KEY = Accept , Value = application/json)
 
 1. Pegar registros
-    - URL: http://127.0.0.1:8000/api/products/   pode ou não especificar o id no final para pegar o registro especifico
+    - URL: http://127.0.0.1:8000/api/products/   pode especificar o id no final para pegar um registro especifico
     - Method: GET
 
 2. Inserir registros

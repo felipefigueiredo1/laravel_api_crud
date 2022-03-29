@@ -21,7 +21,7 @@
 - Header (KEY = Accept , Value = application/json).
 
 1. Pegar registros
-    - URL: http://127.0.0.1:8000/api/products/   pode especificar o id no final para pegar um registro especifico
+    - URL: http://127.0.0.1:8000/api/products/  pode especificar o id no final para pegar um registro especifico
     - Method: GET
 
 2. Inserir registros
@@ -33,12 +33,12 @@
       - price
 
 3. Atualizando registros
-    - URL: http://127.0.0.1:8000/api/products/1  Coloque o id desejado no final, aqui como exemplo esta o id 1
+    - URL: http://127.0.0.1:8000/api/products/{id}
     - Method: PUT
     - Especifique as modificações na aba body
 
 4. Deleção de registros
-    - URL: http://127.0.0.1:8000/api/products/2  Coloque o id desejado no final, aqui como exemplo esta o id 2
+    - URL: http://127.0.0.1:8000/api/products/{id}
     - Method: DELETE
 
 

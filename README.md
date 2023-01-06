@@ -40,9 +40,3 @@
 4. Deleção de registros
     - URL: http://127.0.0.1:8000/api/products/{id}
     - Method: DELETE
-
-
-<h2>Preview</h2>
-
-
-![laravel-api](https://user-images.githubusercontent.com/92311384/160596158-31b7134a-b3e4-45eb-beb5-44100e4b6ca7.png)
